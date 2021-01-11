@@ -66,9 +66,9 @@ angular.module('myApp1', [])
                 $scope.statustext = response.statusText;  
             });
 
-    });
+    })
 
-angular.module('myApp2', []).controller('myCtrl2', function ($scope, $http) {
+.controller('myCtrl2', function ($scope) {
         $scope.firstName3 = "John3";
         $scope.lastName3 = "Doe3";
 
